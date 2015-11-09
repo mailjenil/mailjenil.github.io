@@ -28,9 +28,9 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-
 </head>
 <body data-spy="scroll" data-target="#menu-section">
+	
 <!--MENU SECTION START-->
 <div class="navbar navbar-inverse navbar-fixed-top scroll-me" id="menu-section" >
 <div class="container">
@@ -156,7 +156,7 @@ After working in Industry for a year, I felt the need to gain more technical kno
 <div style="display:none">
 	<div id="gossip">
 		<h5><strong>Tools/Languages used : </strong></h5>Scala(Actor model)
-		<h5><strong>Descripion : </strong></h5>This paper uses push sum protocol to computer average over large number of nodes in distributed systems. Communication happens over Gossip protocol.<br><br><a href="http://www.cs.cornell.edu/johannes/papers/2003/focs2003-gossip.pdf" target="_blank">Gossip-Based Computation of Aggregate Information</a>
+		<h5><strong>Descripion : </strong></h5>This paper uses push sum protocol to compute average over large number of nodes in distributed systems. Communication happens over Gossip protocol.<br><br><a href="http://www.cs.cornell.edu/johannes/papers/2003/focs2003-gossip.pdf" target="_blank">Gossip-Based Computation of Aggregate Information</a>
 		</div>
 </div>
 
@@ -164,7 +164,7 @@ After working in Industry for a year, I felt the need to gain more technical kno
 <div style="display:none">
 	<div id="ford">
 		<h5><strong>Tools/Languages used : </strong></h5>Matlab, Qt, C
-		<h5><strong>Descripion : </strong></h5>This project was undertaken as a Software Engineer at Tata Consultancy Services. Our team developed HMI Interface of <a href="https://www.ford.com/technology/sync/">Sync 3</a><br>Software development cycle consists <li>Modelling the required functionality(Matlab)</li><li>Converting models to C or C-mex code</li><li>Developing User Interface in Qt(C++ and QML)</li><li>Writing network interface(in C) to connect models with User Interface</li>
+		<h5><strong>Descripion : </strong></h5>This project was undertaken as a Software Engineer at Tata Consultancy Services. Our team developed HMI Interface of <a href="https://www.ford.com/technology/sync/">Sync 3</a><br>. Software development cycle consists <li>Modelling the required functionality(Matlab)</li><li>Converting models to C or C-mex code</li><li>Developing User Interface in Qt(C++ and QML)</li><li>Writing network interface(in C) to connect models with User Interface</li>
 		<h5><strong>My Part : </strong></h5>Our team was of four people. Everbody was involved in each task. Though I was more focused in developing User Interface and Network Interface as mentioned above.
 		</div>
 </div>
@@ -177,6 +177,28 @@ After working in Industry for a year, I felt the need to gain more technical kno
 		</div>
 </div>
 
+<!-- Plotly-->
+<div style="display:none">
+	<div id="plotly">
+		<h5><strong>Tools/Languages used : </strong></h5>Python, Plotly
+		<h5><strong>Descripion : </strong></h5>This is actually an entry to Data Visualization contest on Instructable.com. It was mandatory to use Plotly api for visualizing data.The code here scans all your posts on timeline and displays a chart based on which friends have highest likes on your posts.<br><br> I would be quite happy if you try it out yourself. Here is my <a href="http://www.instructables.com/id/Analyse-your-Facebook-data-using-Plotly/" target="_blank"><strong>Instructable</strong></a>.
+		</div>
+</div>
+
+<!-- Plotly-->
+<div style="display:none">
+	<div id="gesture">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/sGIq_r3Fybc" frameborder="0" allowfullscreen></iframe>
+		</div>
+</div>
+
+<!-- py2journal-->
+<div style="display:none">
+	<div id="py2journal">
+		<h5><strong>Tools/Languages used : </strong></h5>Python, Latex
+		<h5><strong>Descripion : </strong></h5>This small project is result of necessity and boredom. Our undergraduate advisor needed a journal having all lab codes I have used in my semester along with their description. All codes were stored in .m(Matlab) files. It required tiresome work of few hours copy pasting everything into word file. Instead I just used my new learned Latex skills and python to automatically create journal and save lots of time and energy. Infact all of my colleagues found it useful and used it to generate their journals.<br><br>Do checkout code. I have uploaded the code in my <a href="https://github.com/mailjenil/py2journal" target="_blank" >Github Repo</a>. 
+		</div>
+</div>
 
 <!-- Project Data starts here-->
 <div class="row text-center animate-in" data-anim-type="fade-in-up" id="work-div">
@@ -251,42 +273,36 @@ After working in Industry for a year, I felt the need to gain more technical kno
 </div>
 </div>
 
+<!-- Plotly-->
 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 hobby">
 <div class="work-wrapper">
-
-<a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/6.jpg">
-
-<img src="" class="" alt="" />
-</a>
-
-<h4>Data Visualization of your best friends on Facebook using Plotly</h4>
+<a class="fancybox-media" style="text-decoration:none" href="#plotly">
+	<h4>Data Visualization of your best friends on Facebook using Plotly</h4>
 <h5>Entry for Data Visualization contest at Instructable.com</h5>
+</a>
 </div>
 </div>
 
+<!-- Py2Journal-->
 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 hobby">
 <div class="work-wrapper">
-
-<a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/6.jpg">
-
-<img src="" class="" alt="" />
-</a>
-
+<a class="fancybox-media" style="text-decoration:none" href="#py2journal">
 <h4>Py2Journal</h4>
 <h5>Make engineering journal in seconds using Latex</h5>
+</a>
 </div>
 </div>
 
+
+<!-- Hand Recognition-->
 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 hobby">
 <div class="work-wrapper">
-
-<a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/6.jpg">
-
-<img src="" class="" alt="" />
-</a>
-
+<a class="fancybox-media" style="text-decoration:none" href="#gesture">
 <h4>Hand Recognition using OpenCV</h4>
 <h5>Just a quick script to get acquainted with OpenCV in Python </h5>
+</a>
+
+
 </div>
 </div>
 
