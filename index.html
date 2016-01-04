@@ -84,7 +84,7 @@ Hi, I am Jenil. I like building things fast.
 <br>
 After working in Industry for a year, I felt the need to gain more technical knowledge. <br>So I am currently studying Computer Science at University of Florida.</p>
 
-<p>If you are fellow tinkerer, feel free to contact me. I would love to make and break things together.<br> Or If you are a potential employer, do contact as I am always in search of awesome oppurtunities.</p>
+<p>If you are fellow tinkerer, feel free to contact me. I would love to make and break things together.<br> Or If you are a potential employer, do contact as I am in search of awesome oppurtunities.</p>
 
 <p>Don't forget to check out my resume and cool projects below.</p>
 <br><br>
@@ -116,6 +116,15 @@ After working in Industry for a year, I felt the need to gain more technical kno
 </div>
 
 
+<!-- Sudoku Solver-->
+<div style="display:none">
+	<div id="sudoku">
+		<h5><strong>Tools/Languages used : </strong></h5>Python, OpenCV
+		<h5><strong>Descripion : </strong></h5>I like solving sudoku puzzles in daily newspaper but hate to wait for soultions till next day. Why not make something with which I can verify solved sudoku results in seconds. This computer application detects sudoku puzzle from camera and solves in fraction of seconds.
+		<h5><strong>Implementation : </strong></h5> Implementation involved using Computer Vision(to detect sudoku grid), Machine Learning (to detect digits in grid) and Sudoku solving algorithm. Using contours in computer vision, big grid and small nine grids are identified. KNN trains 0-9 digits from training data which is used to detect digits. Digits with its positions are feeded to Sudoku Solving algorithm.
+		</div>
+</div>
+
 <!-- Page Rank Inline-->
 <div style="display:none">
 	<div id="pagerank">
@@ -125,22 +134,30 @@ After working in Industry for a year, I felt the need to gain more technical kno
 		</div>
 </div>
 
-<!-- Sudoku Solver-->
-<div style="display:none">
-	<div id="sudoku">
-		<h5><strong>Tools/Languages used : </strong></h5>Python, OpenCV
-		
-		<h5><strong>Descripion : </strong></h5>I like solving sudoku puzzles in daily newspaper but hate to wait for soultions till next day. Why not make something with which I can verify solved sudoku results in seconds. This computer application detects sudoku puzzle from camera and solves in fraction of seconds.
-		<h5><strong>Implementation : </strong></h5> Implementation involved using Computer Vision(to detect sudoku grid), Machine Learning (to detect digits in grid) and Sudoku solving algorithm. Using contours in computer vision, big grid and small nine grids are identified. KNN trains 0-9 digits from training data which is used to detect digits. Digits with its positions are feeded to Sudoku Solving algorithm.
-		</div>
-</div>
-
 <!-- Research Paper-->
 <div style="display:none">
 	<div id="paper">
 		<h5><strong>Tools/Languages used : </strong></h5>Python, OpenCV
 		
 		<h5><strong>Descripion : </strong></h5>This published paper is result of my undergraduate research project. It presents a simple approach to detect digits from images. It presents a simple OCR algorithm for digit detection.<br><br> You can pretty much read the paper itself <a href="http://www.ijcsit.com/docs/Volume%205/vol5issue05/ijcsit20140505179.pdf" target="_blank">here</a>.
+		</div>
+</div>
+
+<!-- Amazon-BestBuy-->
+<div style="display:none">
+	<div id="amazon-bestbuy">
+		<h5><strong>Tools/Languages used : </strong></h5>Python, NLP toolkit, Hadoop, Amazon Web Services
+		
+		<h5><strong>Descripion : </strong></h5>Implementaion of complete data science pipeline.<br><li>Data Cleaning</li><li>Data Integration</li><li>Data Prediction</li><li>Data Vizualization</li><br>Space of product reviews is unstructured. User has to read lot of reviews to get complete and unbiased view of the product. This project aims to solve this problem using Data Science.<br><br>Complete Report of project can be downloaded <a href="assets/amazon-bestbuy.pdf" target="_blank">here.</a>
+		</div>
+</div>
+
+<!-- Facebook api-->
+<div style="display:none">
+	<div id="facebook">
+		<h5><strong>Tools/Languages used : </strong></h5>Scala, Spray-Can, Spray-Json
+		
+		<h5><strong>Descripion : </strong></h5>REST based Facebook Api server implementation using Actor model. Data handling using CRUD.<br><br><a href="assets/fbapi.pdf" target="_blank">Complete API documentation</a> 
 		</div>
 </div>
 
@@ -185,7 +202,7 @@ After working in Industry for a year, I felt the need to gain more technical kno
 		</div>
 </div>
 
-<!-- Plotly-->
+<!-- Gesture-->
 <div style="display:none">
 	<div id="gesture">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/sGIq_r3Fybc" frameborder="0" allowfullscreen></iframe>
@@ -203,18 +220,6 @@ After working in Industry for a year, I felt the need to gain more technical kno
 <!-- Project Data starts here-->
 <div class="row text-center animate-in" data-anim-type="fade-in-up" id="work-div">
 
-<!-- Page Rank view-->
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 academic">
-<div class="work-wrapper">
-<a class="fancybox-media" style="text-decoration:none" href="#pagerank">
-<font color="white">
-<h4>Page Rank algorithm using Hadoop and MapReduce</h4>
-<h5>Implementing Page Rank on Wikipedia</h5>
-</font>
-</a>
-</div>
-</div>
-
 <!--Sudoku Solver view-->
 <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 academic">
 <div class="work-wrapper">
@@ -227,13 +232,49 @@ After working in Industry for a year, I felt the need to gain more technical kno
 </div>
 </div>
 
+<!-- Page Rank view-->
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 academic">
+<div class="work-wrapper">
+<a class="fancybox-media" style="text-decoration:none" href="#pagerank">
+<font color="white">
+<h4>Page Rank algorithm using Hadoop and MapReduce</h4>
+<h5>Implementing Page Rank on Wikipedia</h5>
+</font>
+</a>
+</div>
+</div>
+
 <!--Research Paper view-->
-<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 research">
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 academic">
 <div class="work-wrapper">
 <a class="fancybox-media" style="text-decoration:none" href="#paper">
 <font color="white">
 <h4>A Simple and Effective Optical Character Recognition System for Digits Recognition using the Pixel-Contour Features and Mathematical Parameters</h4>
 <h5>Research Paper published in International Journal of Computer Science and Information Technologies</h5>
+</a>
+</font>
+</div>
+</div>
+
+<!--Amazon and BestBuy-->
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 academic">
+<div class="work-wrapper">
+<a class="fancybox-media" style="text-decoration:none" href="#amazon-bestbuy">
+<font color="white">
+<h4>Feature Based Opinion Mining of Amazon and BestBuy Product Reviews</h4>
+<h5>Implementation of complete Data Science Pipeline</h5>
+</a>
+</font>
+</div>
+</div>
+
+<!--Facebook Api-->
+<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 research">
+<div class="work-wrapper">
+<a class="fancybox-media" style="text-decoration:none" href="#facebook">
+<font color="white">
+<h4>REST/CRUD Implementation of Facebook API</h4>
+<h5>Includes Implementation of basic end points of Social network - User, Profile, Page, Friends, Photos, Albums</h5>
 </a>
 </font>
 </div>
